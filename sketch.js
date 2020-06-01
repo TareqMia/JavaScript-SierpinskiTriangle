@@ -22,7 +22,7 @@ function draw() {
   background(255);
   let val = slider.value();
   Sierpinski(width / 2 - len / 2, height / 2 + len * sqrt(3) / 4, len, val, 1);
-  fill(255, 204, 0);
+  fill('#ff5f6d');
   
 }
 
