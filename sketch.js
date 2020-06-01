@@ -1,5 +1,6 @@
 /* This sketch creates a Sierpinski Triangle thrugh use of recursion.
-A slider is used to show the different levels of depth of the recursion 
+A slider is used to show the different levels of depth of the recursion
+(recursion is when a function calls itself within the function)
 Tareq Mia
 */
 
@@ -12,8 +13,8 @@ function setup() {
   //createCanvas(700, 700);
   let canvas = createCanvas(750,  750);
   canvas.style('justify-content', 'center');
-  slider = createSlider(1, 8, 1);
-  slider.position(890, 155); 
+  slider = createSlider(1, 8, 1);  //creates a slider with values from 1-8, starting at 1
+  slider.position(890, 155); //positions slider near the top of the triangle
   
 }
 
