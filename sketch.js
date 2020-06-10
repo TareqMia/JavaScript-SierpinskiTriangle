@@ -21,7 +21,7 @@ function draw() {
   background(255);
   let val = slider.value();
   Sierpinski(width / 2 - len / 2, height / 2 + len * sqrt(3) / 4, len, val, 1);
-  fill('#CCCC00');
+  fill('#999900');
 }
 
 //creates the base triangle
